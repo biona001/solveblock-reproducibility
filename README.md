@@ -1,6 +1,6 @@
 # `solveblock` reproducibility
 
-This repo contains code to reproduce the result in our paper "It’s a wrap: deriving distinct discoveries with FDR control after a GWAS pipeline" (we will link the paper once it is available)
+This repo contains code to reproduce the result in our paper [It’s a wrap: deriving distinct discoveries with FDR control after a GWAS pipeline](https://www.biorxiv.org/content/10.1101/2025.06.05.658138v1?rss=1)
 
 :warning: Note these source codes are *purely for review and reproducibility purposes*. Users interested in running the overall pipeline should proceed to the main [GhostKnockoffGWAS](https://github.com/biona001/GhostKnockoffGWAS) page.
 
