@@ -11,11 +11,11 @@ All simulations and real data analysis relied on [v0.2.4](https://github.com/bio
 ## Running the GhostKnockoff pipeline (for real data and simulated experiments)
 
 This consisted of 3 steps:
-1. Running `snp_ldsplit` of `bigsnpr` to obtain quasi-independent regions in each chromosome. This was carried out in notebooks `GhostKnockoffGWAS-ldsplit-UKB-array-british.ipynb` and `GhostKnockoffGWAS-ldsplit-UKB-array-otherpop.ipynb`
+1. Running `snp_ldsplit` of `bigsnpr` to obtain quasi-independent regions in each chromosome. Note that in our paper this is considered a pre-processing step. In any case, this was carried out in notebooks `GhostKnockoffGWAS-ldsplit-UKB-array-british.ipynb` and `GhostKnockoffGWAS-ldsplit-UKB-array-otherpop.ipynb`
 2. Running `solveblock` executable. This was done in `GhostKnockoffGWAS-solveblock-UKB.ipynb` and `GhostKnockoffGWAS-solveblock-UKB-otherpop.ipynb`
 3. Running the `GhostKnockoffGWAS` executable
     + For simulated experiments, see [Simulated Experiments](#Simulated-Experiments)
-    + For real data analysis, see [Simulated Experiments](#Simulated-Experiments)
+    + For real data analysis, see [Real data analysis on UKB phenotypes](#Real-data-analysis-on-UKB-phenotypes)
 
 ## UK Biobank data quanlity control
 
